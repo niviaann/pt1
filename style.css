@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg1.jpg");
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', 'sans-serif,';
+    text-align: center;
+    
+} 
+
+h1 {
+    font-size: 45px;
+    margin-top: 1px;
+}
+
+/* all about hover */
+
+nav {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: pink;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+    margin: 0px;
+    position: relative;
+} 
+
+nav a:hover {
+    color: white;
+}  
+
+nav a::before {
+    content:'';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: pink;
+    transition: all 0.3s;
+}  
+
+nav a:hover::before {
+    width: 100%;
+} 
+
+/* border */ 
+
+p.dotted {border-style:dotted; border-color:darkblue; }
+p.dashed {border-style: dashed; border-color:darkblue; }
+p.solid {border-style: solid; border-color:darkblue; }
+p.double {border-style: double; border-color:darkblue; }
+p.groove {border-style: groove; border-color:darkblue; }
+p.ridge {border-style: ridge; border-color:darkblue; }
+p.inset {border-style: inset; border-color:darkblue; }
+p.outset {border-style: outset; border-color:darkblue; }
+p.none {border-style: none; border-color:darkblue; }
+p.hidden {border-style: hidden; border-color:darkblue; }
+p.mix {border-style: dotted dashed solid double; border-color:darkblue; }
+p.dotted {border-style: dotted; border-color:darkblue; }
+p.dashed {border-style: dashed; border-color:darkblue; }
+p.solid {border-style: solid; border-color:darkblue; }
+p.double {border-style: double; border-color:darkblue; }
+p.groove {border-style: groove; border-color:darkblue; }
+p.ridge {border-style: ridge; border-color:darkblue; }
+p.inset {border-style: inset; border-color:darkblue; }
+p.outset {border-style: outset; border-color:darkblue; }
+p.none {border-style: none; border-color:darkblue; }
+p.hidden {border-style: hidden; border-color:darkblue; }
+p.mix {border-style: dotted dashed solid double; border-color:darkblue; }
+p.dotted {border-style: dotted; border-color:darkblue; }
+p.dashed {border-style: dashed; border-color:darkblue; }
+p.solid {border-style: solid; border-color:darkblue; }
+p.double {border-style: double; border-color:darkblue; }
+p.groove {border-style: groove; border-color:darkblue; }
+p.ridge {border-style: ridge; border-color:darkblue; }
+p.inset {border-style: inset; border-color:darkblue; }
+p.outset {border-style: outset; border-color:darkblue; }
+p.none {border-style: none; border-color:darkblue; }
+p.hidden {border-style: hidden; border-color:darkblue; }
+p.mix {border-style: dotted dashed solid double; border-color:darkblue; }
+p.dotted {border-style: dotted; border-color:darkblue; }
+p.dashed {border-style: dashed; border-color:darkblue; }
+p.solid {border-style: solid; border-color:darkblue; }
+p.double {border-style: double; border-color:darkblue; }
+p.groove {border-style: groove; border-color:darkblue; }
+p.ridge {border-style: ridge; border-color:darkblue; }
+p.inset {border-style: inset; border-color:darkblue; }
+p.outset {border-style: outset; border-color:darkblue; }
+p.none {border-style: none; border-color:darkblue; }
+p.hidden {border-style: hidden; border-color:darkblue; }
+p.mix {border-style: dotted dashed solid double; border-color:darkblue; }
+p.dotted {border-style: dotted; border-color:darkblue; }
+
+/* all done */
